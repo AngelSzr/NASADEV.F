@@ -1,4 +1,4 @@
-const Card = () => {
+const Card = ({ data }) => {
     return (
         <div className="card text-center mt-5">
             <div className="card-header">

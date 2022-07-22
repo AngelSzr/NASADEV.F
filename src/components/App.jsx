@@ -1,17 +1,16 @@
-import Calendario from './Calendario'
 import Card from './Card'
 import Navbar from './Navbar'
+import '../App.css'
 
 
 function App() {
+  console.log(Navbar.info)
   return (
     <div>
       <Navbar />
       <div className="container">
-        <Calendario />
         <Card />
       </div>
-      <button type="button" className="btn btn-secondary" >Secondary</button>
 
     </div>
   )
